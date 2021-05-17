@@ -1,0 +1,67 @@
+.container {
+    background: url(../images/1.jpg) center / cover no-repeat fixed;
+    height: 85%;
+}
+.secOne {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding:  35px;
+    
+}
+#oops, #notAvailable, #formation, #annuaire {
+    color: white;
+}
+
+#sectionCadre {
+    /* background-color: red; */
+    width: 80%;
+    margin: 1 auto;
+    margin-top: 63px;
+    display: flex;
+
+}
+a{
+    text-decoration: none;
+}
+.cadre {
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-radius: 25%;
+    margin: 0 52px;
+}
+.img-cadre{
+    width: 40px;
+    height: 40px; 
+    margin-top: 23px;
+}
+/* ******************************************* FOOTER ************************************************* */
+footer {
+    height:15%;
+    background-color: rgba(170, 160, 160, 0.342);
+}
+.label {
+    display: flex;
+    justify-content: center;
+}
+.text-label{
+    margin: 12px 0;
+}
+.line-input {
+    display: flex;
+    justify-content: center;
+}
+input {
+    height: 30px;
+    width: 18%;
+    border-radius: 12px 0 0 12px;
+    border: 1px solid white;
+    padding:0 15px ;
+}
+button {
+    background-color: #667F34;
+    color: white;
+    border: 0;
+    border-radius: 0 12px 12px 0;
+}
